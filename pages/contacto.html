@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <title>CONTACTO</title>
+</head>
+<body>
+    <header>
+        <div class="imagenArriba"></div>
+        <a href="../index.html"><h1 class="asecas">Asecas Studio</h1></a>
+        <nav class="menu">
+            <ul>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sec1">
+            <p class="slogan1">
+                ¡LLEVA TU MUSICA AL PROXIMO NIVEL!
+            </p>
+        </section>
+        <section>
+            <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+                <h2>Contacto</h2>
+                <label for="">Nombre:</label>
+                <input type="text" required placeholder="Tu nombre"><br>
+                <label for="">Apellido:</label>
+                <input type="text" required placeholder="Tu Apellido"><br>
+                <label for="">Email:</label>
+                <input type="Email" required><br>
+                <label for="">Estado civil:</label>
+                <select name="Estado civil" id="">
+                    <option value="Soltero">Soltero</option>
+                    <option value="Casado">Casado</option>
+                    <option value="Divorciado">Divorciado</option>
+                </select><br>
+                <label for="">Desea recibir el Newsletter?</label>
+                <input type="checkbox"><br>
+                <br>
+                <textarea name="areadetexto" id="" cols="50" rows="10" placeholder="escribe tu comentario"></textarea><br>
+                <input type="submit" value="Enviar formulario">
+                <input type="reset" value="Borrar formulario">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h4>ASECAS STUDIO</h4>
+        <h5>ESTUDIO PROFESIONAL DE AUDIO</h5>
+    </footer>
+</body>
+</html>
